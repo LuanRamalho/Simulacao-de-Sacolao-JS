@@ -1,0 +1,79 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+        .product {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #e8f5e9;
+        }
+        .product:nth-child(odd) {
+            background-color: #c8e6c9;
+        }
+        .product label {
+            flex: 1;
+            color: #388E3C;
+        }
+        .product input {
+            width: 70px;
+            text-align: right;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .total {
+            font-size: 1.5em;
+            text-align: right;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #ffcdd2;
+            border-radius: 5px;
+            color: #d32f2f;
+        }
+        .troco {
+            font-size: 1.5em;
+            text-align: right;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #bbdefb;
+            border-radius: 5px;
+            color: #1976d2;
+        }
+        .valorPagoContainer {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff3e0;
+            border: 2px solid #ffb74d;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .valorPagoContainer label {
+            font-size: 1.2em;
+            color: #e65100;
+        }
+        .valorPagoContainer input {
+            width: 100px;
+            text-align: right;
+            padding: 5px;
+            border: 2px solid #ffb74d;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
